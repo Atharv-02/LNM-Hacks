@@ -33,9 +33,12 @@ const Navbar = () => {
           <Link to='/' className='nav-link'>
             <button className='home btn'>Home</button>
           </Link>
-          <Link to='/' className='nav-link'>
+          <a
+            href='https://bafybeib6hycci6t7nu6hphvabhvsyuwnyjx5mpi6djolljoaox6zur6rgm.ipfs.sphn.live/'
+            className='nav-link'
+          >
             <button className='home btn'>Community</button>
-          </Link>
+          </a>
           <Link to='/buy' className='nav-link'>
             <button className='buy btn'>Buy</button>
           </Link>
