@@ -33,6 +33,9 @@ const Navbar = () => {
           <Link to='/' className='nav-link'>
             <button className='home btn'>Home</button>
           </Link>
+          <Link to='/' className='nav-link'>
+            <button className='home btn'>Community</button>
+          </Link>
           <Link to='/buy' className='nav-link'>
             <button className='buy btn'>Buy</button>
           </Link>
